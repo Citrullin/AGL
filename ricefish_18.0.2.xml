@@ -8,6 +8,7 @@
          pushurl="ssh://gerrit.automotivelinux.org:29418"
   />
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
+  <remote name="yocto_fork" fetch="https://github.com/citrullin" />
   <remote name="github" fetch="https://github.com/" />
   <remote name="openembedded" fetch="https://git.openembedded.org/" />
   <remote name="qtio" fetch="https://code.qt.io/" />
@@ -30,7 +31,7 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="2034fc38eb4e63984d9bd6b260aa1bf95ce562e4" upstream="scarthgap" />
+  <project name="poky" path="external/poky" remote="yocto_fork" revision="d89a9155f129d074d1789e98592f0f22d24f439b" upstream="try_to_fix" />
   <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="72018ca1b1a471226917e8246e8bbf9a374ccf97" upstream="scarthgap" />
 
 
